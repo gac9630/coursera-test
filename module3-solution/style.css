@@ -2,3 +2,47 @@
 	font-family: Arial, Geneva, Helvetica, sans-serif;
 	box-sizing: border-box;
 }
+
+#header-nav{
+	background-color: #808080;
+	height: 82px;
+	border-radius: 0;
+	border: 3px solid #000000
+}
+.navbar-brand h1{
+	font-weight: bold;
+	color: #000000;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 10px;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, a.navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid #000000;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -35px;
+}
+#nav-list{
+	padding: 0;
+}
+#nav-list div{
+	font-size: 1.8em;
+	border-bottom: 2px solid #000000;
+}
+#menu{
+	font-weight: bold;
+	margin: 40px;
+}
+.chicken{
+	font-weight: bold;
+}
+.container .row{
+	background-color: #808080;
+	height: 1000px;
+}
+
